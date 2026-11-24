@@ -1,4 +1,5 @@
 Sistema de Monitoramento de Sensores
+Matéria de Análise de sensores com Streamlit e IA
 1. Apresentação do projeto
 
 Este projeto foi desenvolvido como atividade acadêmica de Inteligência Artificial, com o objetivo de analisar dados de sensores e prever possíveis falhas em equipamentos.
@@ -79,9 +80,9 @@ uv sync
 uv run streamlit run app.py
 
 
-A aplicação será aberta no navegador. Caso não abra automaticamente, acesse:
+para facilitar, o projeto pode ser aberto no navegador:
 
-http://localhost:8501
+https://monitoramento-sensores-svqnztdyruuurrwdm4ju5a.streamlit.app/
 
 8. Conclusão
 
