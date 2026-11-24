@@ -342,6 +342,8 @@ with aba3:
 
 
 # ABA 4 - LIMITAÇÕES E CUIDADOS
+
+# ABA 4 - LIMITAÇÕES E CUIDADOS
 with aba4:
     st.header("Limitações e cuidados")
 
@@ -358,13 +360,22 @@ with aba4:
         "O desempenho em equipamentos reais pode ser diferente."
     )
 
+    st.success(
+        "Como reduzir esse risco: testar o modelo com dados reais "
+        "de equipamentos e atualizar a base periodicamente."
+    )
+
     st.subheader("2. Possibilidade de previsões incorretas")
 
     st.write(
         "O modelo pode indicar funcionamento normal quando existe "
-        "uma falha ou indicar falha quando o equipamento está normal. "
-        "Por isso, é importante avaliar precisão, recall e matriz "
-        "de confusão."
+        "uma falha ou indicar falha quando o equipamento está normal."
+    )
+
+    st.success(
+        "Como reduzir esse risco: acompanhar as métricas, "
+        "principalmente o recall, analisar a matriz de confusão "
+        "e realizar inspeções técnicas."
     )
 
     st.subheader("3. Poucas variáveis analisadas")
@@ -375,6 +386,11 @@ with aba4:
         "também podem influenciar o funcionamento do equipamento."
     )
 
+    st.success(
+        "Como reduzir esse risco: incluir outros sensores e variáveis "
+        "relevantes para melhorar a análise do equipamento."
+    )
+
     st.subheader("4. Mudanças nas condições de operação")
 
     st.write(
@@ -383,20 +399,23 @@ with aba4:
         "parte da sua capacidade de previsão."
     )
 
+    st.success(
+        "Como reduzir esse risco: acompanhar o desempenho do modelo "
+        "e realizar novos treinamentos com dados atualizados."
+    )
+
     st.subheader("5. Cuidados antes de tomar decisões")
 
     st.write(
         "As previsões devem ser utilizadas como apoio à manutenção, "
-        "e não como única fonte de decisão. É importante realizar "
-        "inspeções técnicas, acompanhar os sensores e validar o "
-        "modelo com dados reais antes de utilizá-lo em situações "
-        "operacionais."
+        "e não como única fonte de decisão."
     )
 
     st.warning(
         "Nunca dependa exclusivamente da previsão da inteligência "
         "artificial para manter um equipamento em funcionamento "
-        "quando houver risco à segurança."
+        "quando houver risco à segurança. A avaliação de um "
+        "profissional responsável é indispensável."
     )
 
     st.success(
@@ -404,6 +423,7 @@ with aba4:
         "manutenção preventiva, desde que suas limitações sejam "
         "consideradas e exista acompanhamento profissional."
     )
+
 
 st.divider()
 
